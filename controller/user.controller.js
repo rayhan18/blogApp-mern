@@ -32,7 +32,8 @@ export const signup = async (req , res, next )=>{
     let user = new User({
     name,
     email,
-    password: hasPassword
+    password: hasPassword,
+    blogs:[]
    })
   
    try {

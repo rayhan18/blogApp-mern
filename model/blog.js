@@ -16,9 +16,8 @@ const blogSchema = new Schema({
     required: true,
   },
   user: {
-   // type: mongoose.Types.ObjectId,
-    // ref: "User",
-    type: String,
+    type: mongoose.Types.ObjectId,
+     ref: "User",
     required: true,
   },
 });
